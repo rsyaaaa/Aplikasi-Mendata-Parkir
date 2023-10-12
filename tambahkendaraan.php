@@ -18,10 +18,18 @@
             </div>
             <div class="card-body">
               <form action="simpankendaraan.php" method="POST">
+              <div class="form-group">
+                  <label>Jenis Kendaraan :</label>
+                  <br>
+                  <select name="jenis_kendaraan" id="jenis_kendaraan">
+                    <option value="Mobil">Mobil</option>
+                    <option value="Motor">Motor</option>
+                  </select>
+                </div>
                 
                 <div class="form-group">
-                  <label>Jenis Kendaraan</label>
-                  <input type="text" name="jenis_kendaraan" placeholder="Masukkan jenis kendaraan" class="form-control">
+                  <label>Nama Kendaraan</label>
+                  <input type="text" name="nama_kendaraan" placeholder="Masukkan jenis kendaraan" class="form-control">
                 </div>
 
                 <div class="form-group">

@@ -1,11 +1,9 @@
 <?php
-
 include('koneksi.php');
 
-//get id
 $id = $_GET['id'];
 
-$query = "DELETE FROM dataparkiran WHERE id = '$id'";
+$query = "UPDATE dataparkiran SET jam_keluar = NOW() WHERE id = '$id'";
 
 if($connection->query($query)) {
     header("location: index.php");
@@ -13,4 +11,4 @@ if($connection->query($query)) {
     echo "DATA GAGAL DIHAPUS!";
 }
 
-?>      
+?>

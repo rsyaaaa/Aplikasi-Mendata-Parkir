@@ -23,6 +23,7 @@
                 <thead>
                   <tr>
                     <th scope="col">Jenis Kendaraan</th>
+                    <th scope="col">Nama Kendaraan</th>
                     <th scope="col">Plat Nomor</th>
                     <th scope="col">Jam Masuk</th>
                     <th scope="col">Jam Keluar</th>
@@ -38,14 +39,16 @@
                   ?>
 
                   <tr>
-                  
                       <td><?php echo $row['jenis_kendaraan'] ?></td>
+                      <td><?php echo $row['nama_kendaraan'] ?></td>
                       <td><?php echo $row['plat_nomor'] ?></td>
                       <td><?php echo $row['jam_masuk'] ?></td>
                       <td><?php echo $row['jam_keluar'] ?></td>
                       <td class="text-center">
                         <!-- INI YG NANTI DIPASTE YAA -->
-                        <a href="editparkir.php?id=<?php echo $row['id'] ?>" class="btn btn-sm btn-primary">EDIT</a>
+                        <a href="updatejamkeluar.php?id=<?php echo $row['id'] ?>" class="btn btn-sm btn-dark">JAM</a>
+                        <a href="editparkir.php?id=<?php echo $row['id'] ?>" class="btn btn-sm btn-warning">EDIT</a>
+                        
                         <a href="hapuskendaraan.php?id=<?php echo $row['id'] ?>" class="btn btn-sm btn-danger">HAPUS</a>
                       </td>
                   </tr>
