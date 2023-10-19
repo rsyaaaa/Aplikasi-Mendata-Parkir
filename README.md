@@ -1,8 +1,12 @@
 # Aplikasi Untuk Mendata Parkir.
 Hasil Screenshot Tampilan Utama
-![image](https://github.com/rsyaaaa/Aplikasi-Mendata-Parkir/assets/140677867/f22d57be-b6ad-4404-8dab-6bf6c13d9988)
+![image](https://github.com/rsyaaaa/Aplikasi-Mendata-Parkir/assets/140677867/f131bc5c-a716-4921-8047-294216bc976f)
 
 Hasil Screenshot Tampilan Tambah data
-![Uploading image.png…]()
+![image](https://github.com/rsyaaaa/Aplikasi-Mendata-Parkir/assets/140677867/279b603c-4820-484b-b18c-68834a51f174)
+
+Hasil Screenshoot Tampilan Edit data
+![image](https://github.com/rsyaaaa/Aplikasi-Mendata-Parkir/assets/140677867/de1df6da-01a6-4a2d-ae11-5f3ef956f4ce)
+
 
 
