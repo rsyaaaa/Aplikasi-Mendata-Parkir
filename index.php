@@ -11,7 +11,7 @@
   <body>
   <ul class="nav nav-pills justify-content-center">
   <li class="nav-item">
-    <a class="nav-link" href="dashboard.php">Dashboard</a>
+    <a class="nav-link" href="dashboard.php">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="index.php">Data Parkir</a>
@@ -19,9 +19,7 @@
   <li class="nav-item">
     <a class="nav-link" href="profile.php">Profile</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="logout.php">Logout</a>
-  </li>
+  
   
 </ul>
 <div class="tab-content" id="pills-tabContent">
@@ -46,6 +44,7 @@
                     <th scope="col">Jenis Kendaraan</th>
                     <th scope="col">Nama Kendaraan</th>
                     <th scope="col">Plat Nomor</th>
+                    <th scope="col">Gambar</th>
                     <th scope="col">Jam Masuk</th>
                     <th scope="col">Jam Keluar</th>
                     <th scope="col">AKSI</th>
@@ -63,6 +62,7 @@
                       <td><?php echo $row['jenis_kendaraan'] ?></td>
                       <td><?php echo $row['nama_kendaraan'] ?></td>
                       <td><?php echo $row['plat_nomor'] ?></td>
+                      <td><img src="gambar_kendaraan/<?php echo $row['gambar'] ?>" alt="" width="50px"></td>
                       <td><?php echo $row['jam_masuk'] ?></td>
                       <td><?php echo $row['jam_keluar'] ?></td>
                       <td class="text-center">

@@ -22,7 +22,7 @@
   
   <ul class="nav nav-pills justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="dashboard.php">Dashboard</a>
+    <a class="nav-link active" aria-current="page" href="dashboard.php">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="index.php">Data Parkir</a>
@@ -30,9 +30,7 @@
   <li class="nav-item">
     <a class="nav-link" href="profile.php">Profile</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="logout.php">Logout</a>
-  </li>
+  
   
 </ul>
 <div class="tab-content" id="pills-tabContent">
@@ -48,7 +46,7 @@
                 <h2>DASHBOARD</h2>
                 <hr>
 
-                Selamat Datang <?php echo $_SESSION['nama_lengkap'] ?>
+                Selamat Datang, <?php echo $_SESSION['nama_lengkap'] ?>
 </center>
               </div>
             </div>

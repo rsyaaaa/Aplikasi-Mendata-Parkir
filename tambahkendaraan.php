@@ -17,7 +17,7 @@
               TAMBAH  DATA KENDARAAN
             </div>
             <div class="card-body">
-              <form action="simpankendaraan.php" method="POST">
+              <form action="simpankendaraan.php" method="POST" enctype="multipart/from-data">
               <div class="form-group">
                   <label>Jenis Kendaraan :</label>
                   <br>
@@ -35,6 +35,11 @@
                 <div class="form-group">
                   <label>Plat Nomor</label>
                   <input type="text" name="plat_nomor" placeholder="Masukkan plat nomor kendaraan" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label>Masukan Gambar Mobil</label>
+                  <input type="file" name="gambar_kendaraan" class="form-control">
                 </div>
 
             

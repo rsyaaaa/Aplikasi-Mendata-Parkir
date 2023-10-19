@@ -21,7 +21,7 @@
   <body style="background-image: url('walldash2.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
   <ul class="nav nav-pills justify-content-center">
   <li class="nav-item">
-    <a class="nav-link" href="dashboard.php">Dashboard</a>
+    <a class="nav-link" href="dashboard.php">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="index.php">Data Parkir</a>
@@ -29,9 +29,7 @@
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="profile.php">Profile</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="logout.php">Logout</a>
-  </li>
+  
   
 </ul>
 <div class="tab-content" id="pills-tabContent">
@@ -48,7 +46,8 @@
                 <hr>
 
                 Username     : <?php echo $_SESSION['username'] ?> <br>
-                Nama Lengkap : <?php echo $_SESSION['nama_lengkap'] ?>
+                Nama Lengkap : <?php echo $_SESSION['nama_lengkap'] ?> <br><br>
+                <a href="logout.php" class="btn btn-danger">Logout</a>
 
               </div>
             </div>
