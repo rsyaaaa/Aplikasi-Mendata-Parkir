@@ -9,6 +9,27 @@
   </head>
 
   <body>
+  <ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="dashboard.php">Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.php">Data Parkir</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="profile.php">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="logout.php">Logout</a>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+</div>
   <body style="background-image: url('wall.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <div class="container" style="margin-top: 80px">
       <div class="row">
